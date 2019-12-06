@@ -4,15 +4,21 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
- <!-- 아이콘 사이트 -->
- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-<title>Chef J</title>
-    <style>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--부트스트랩-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <!-- 탭 아이콘 -->
+    <link rel="shortcut icon" href="resources/icon/favicon.ico" type='image/x-ico' />
 
-        *,{
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Chef J</title>
+<title>Chef J</title>
+   <style>
+
+   *{
         box-sizing: border-box;
         margin:0;
         padding:0;
@@ -190,7 +196,7 @@
                 <div><a href="회원가입.html"><span class="txt join_txt">회원가입</span></a></div>
                     <div><a href="로그인.html"><span class="txt login_user">로그인</span></a></div>    
                     <div><a href="고객센터.html"><span class="txt">고객센터</span></a></div>
-                    
+                    <div><a href="고객센터.html"><span class="txt">고객센터</span></a></div>
                 <!-- 로그인 했을 때 -->
                 <!-- <div class="name_txt_div"><a href="마이페이지.html"><span class="txt login_name_txt">홍길동 님</span></a>
 
@@ -254,8 +260,5 @@
                             
             </div><!--nav-->
         </div>
-
-
-        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
 </body>
 </html>
