@@ -11,8 +11,6 @@ public class Post {
 	private String pLike;
 	private String pStatus;
 	
-	
-	
 	public Post() {}
 	public Post(String pId, int pType, String pTitle, String pCotent, String pWriter, String pDateWritten,
 			String pCount, String pLike, String pStatus) {
